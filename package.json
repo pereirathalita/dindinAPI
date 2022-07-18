@@ -1,0 +1,25 @@
+{
+  "name": "dindinapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pereirathalita/dindinAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pereirathalita/dindinAPI/issues"
+  },
+  "homepage": "https://github.com/pereirathalita/dindinAPI#readme",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
