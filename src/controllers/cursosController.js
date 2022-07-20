@@ -23,7 +23,8 @@ const cursosController = {
                 id,
             },
         });
-        res.json("Curso Deletado");
+        
+        res.status(200).json("Curso Deletado");
     },
 
     async atualizarCursos(req, res) {
